@@ -1,0 +1,32 @@
+$primary: #007cf8;
+$secondry: #939797;
+$dark: #1b2635;
+$red: red;
+$line-hight: 1px;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import"../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import"../node_modules/material-icons/iconfont/material-icons.scss";
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $dark;
+}
+a{
+    .material-icons-outlined{
+        font-size: 40px;
+    }
+}
+.material-icons-outlined{
+    vertical-align: middle;
+    line-height: $line-hight;
+}
+.nav-link{
+    &:hover{
+        font-weight: bold;
+    }
+}
+#deomo{
+    &:hover{
+        background-color: $dark;
+    }
+}
